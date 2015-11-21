@@ -1,0 +1,27 @@
+{
+  "name": "hexo-renderer-j2",
+  "version": "1.0.0",
+  "description": "Nunjucks renderer for Hexo",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "nunjucks": "^2.1.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "nunjucks",
+    "jinja",
+    "hexo",
+    "plugin",
+    "renderer"
+  ],
+  "author": {
+    "name": "mamboer",
+    "email": "mamboer@live.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mamboer/hexo-renderer-j2.git"
+  }
+}
