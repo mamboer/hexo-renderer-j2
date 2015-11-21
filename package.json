@@ -1,13 +1,24 @@
 {
   "name": "hexo-renderer-j2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nunjucks renderer for Hexo",
   "main": "index.js",
   "dependencies": {
+    "glob": "^6.0.1",
+    "he": "^0.5.0",
     "lodash": "^3.10.1",
-    "nunjucks": "^2.1.0"
+    "moment": "^2.10.6",
+    "nunjucks": "^2.1.0",
+    "traverse": "^0.6.6"
   },
-  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2"
+  },
   "keywords": [
     "nunjucks",
     "jinja",
@@ -22,6 +33,32 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mamboer/hexo-renderer-j2.git"
-  }
+    "url": "git+https://github.com/mamboer/hexo-renderer-j2.git"
+  },
+  "gitHead": "4c029e9d6457ddcdbd644fd0d41bf5abf9376e54",
+  "bugs": {
+    "url": "https://github.com/mamboer/hexo-renderer-j2/issues"
+  },
+  "homepage": "https://github.com/mamboer/hexo-renderer-j2#readme",
+  "_id": "hexo-renderer-j2@1.0.0",
+  "_shasum": "aa6366b910157eb13b43d368e3697a7f6020111d",
+  "_from": "hexo-renderer-j2@*",
+  "_npmVersion": "3.3.6",
+  "_nodeVersion": "5.0.0",
+  "_npmUser": {
+    "name": "mamboer",
+    "email": "mamboer@live.com"
+  },
+  "dist": {
+    "shasum": "aa6366b910157eb13b43d368e3697a7f6020111d",
+    "tarball": "http://registry.npmjs.org/hexo-renderer-j2/-/hexo-renderer-j2-1.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "mamboer",
+      "email": "mamboer@live.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "http://registry.npmjs.org/hexo-renderer-j2/-/hexo-renderer-j2-1.0.0.tgz"
 }
