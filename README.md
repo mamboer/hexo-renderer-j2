@@ -24,5 +24,5 @@ nunjucks:
 This plugin supports the extensions as bellow:
 
 1. `.nunjucks` file extension
-2. '.j2' Jinja 2 file extension
-3. '.tpl' custom template file extension
+2. `.j2` Jinja 2 file extension
+3. `.tpl` custom template file extension
