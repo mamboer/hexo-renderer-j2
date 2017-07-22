@@ -17,7 +17,7 @@ renderer = function (data, locals) {
 	return j2.renderString(data.text, _.assign({filename: data.path}, locals), {path: data.path});
 };
 
-_.forEach(['nunjucks', 'j2', 'tpl'], function(ext){
+_.forEach(['nunjucks', 'j2', 'tpl', 'njk'], function(ext){
     hexo.extend.renderer.register(ext, 'html', renderer, true);
 });
 
