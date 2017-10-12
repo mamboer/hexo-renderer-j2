@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-j2",
-  "version": "1.0.1",
+  "version": "0.0.0-semantically-released",
   "description": "Nunjucks renderer for Hexo",
   "main": "index.js",
   "dependencies": {
@@ -12,12 +12,14 @@
     "traverse": "^0.6.6"
   },
   "scripts": {
-    "test": "mocha test/index.js"
+    "test": "mocha test/index.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4",
-    "sinon": "^1.17.2"
+    "sinon": "^1.17.2",
+    "semantic-release": "^8.0.3"
   },
   "keywords": [
     "nunjucks",
@@ -33,7 +35,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mamboer/hexo-renderer-j2.git"
+    "url": "https://github.com/mamboer/hexo-renderer-j2.git"
   },
   "gitHead": "4c029e9d6457ddcdbd644fd0d41bf5abf9376e54",
   "bugs": {
